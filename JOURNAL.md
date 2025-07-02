@@ -4,7 +4,7 @@ description: "A keyboard which is actually good; hopefully at least ;)"
 created_at: "2024-05-24"
 
 
-Tue Jun 24 2025 (First day)
+Tue Jun 24 2025 (First day) 4 hours
 going to start planning what I am doing what the idea is and how it is roughly going to work now that expericed so we will see how it goes;
 
 Idea:
@@ -53,6 +53,20 @@ I am switching to ki cad we will see if my laptop can run or not
 notes: 
 
 Thu Jun 26 
+Started following a tutrotial on ki kad 
+
+stuck idk any commands; cant even get copy paste to work 
+![Alt text](journalImages/Screen Shot 2025-06-26 at 12.52.02 PM.png)
+
+some more chat gpt resaarch 
+
+✅ 5-Pin MX Switches
+Pads:
+2 for electrical contacts
+2 for plastic stability legs
+1 center hole (optional mechanical post)
+
+Kailh Socket MX Hotswap
 
 
 
