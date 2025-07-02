@@ -69,5 +69,16 @@ Pads:
 Kailh Socket MX Hotswap
 
 
+02 Jun 2025 
+got a basic idea on how the keyboard is going to look
 
-
+- use uart prototcol between module for data transfer
+- can remapp any pins to work for rx and tx
+- set rows as output 
+- set colloums to input
+- connect with with magnet pogo pin connection 
+- probs need ribbion cabels 
+- need to check how to make the 90deg connections
+- basic excali draw layout with eveything I need 
+- just need to finnalise the exact pins 
+![Alt text](journalImages/KeyboardDiagramExcali.png)
