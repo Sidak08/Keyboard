@@ -69,7 +69,7 @@ Pads:
 Kailh Socket MX Hotswap
 
 
-02 Jun 2025 
+02 Jun 2025 (2H)
 got a basic idea on how the keyboard is going to look
 
 - use uart prototcol between module for data transfer
@@ -82,3 +82,9 @@ got a basic idea on how the keyboard is going to look
 - basic excali draw layout with eveything I need 
 - just need to finnalise the exact pins 
 ![Alt text](journalImages/KeyboardDiagramExcali.png)
+
+
+03 Jun 2025 (6h)
+- Swtiched over to linuix could not get ki cad to work for 2h 
+- display module: https://www.aliexpress.com/item/1005008937314193.html?spm=a2g0o.productlist.main.37.689cl1WLl1WLYf&utparam-url=scene%3Asearch%7Cquery_from%3Apc_back_same_best&algo_pvid=04323b26-192f-4ec3-9295-e29557edd303&algo_exp_id=04323b26-192f-4ec3-9295-e29557edd303&pdp_ext_f=%7B%22order%22%3A%22261%22%7D&pdp_npi=4%40dis%21CAD%2112.70%211.38%21%21%2165.41%217.11%21%402103247917515698026168028e09d7%2112000047274995308%21sea%21CA%210%21ABX#nav-specification
+- made pin layout txt

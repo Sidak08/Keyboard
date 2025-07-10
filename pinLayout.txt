@@ -1,0 +1,55 @@
+# Keyboard Matrix
+GPIO1  - Column 1
+GPIO2  - Column 2
+GPIO3  - Column 3
+GPIO4  - Column 4
+GPIO5  - Column 5
+GPIO6  - Column 6
+GPIO7  - Column 7
+GPIO8  - Column 8
+GPIO9  - Column 9
+GPIO10 - Column 10
+GPIO11 - Column 11
+GPIO12 - Column 12
+GPIO13 - Column 13
+GPIO14 - Column 14
+GPIO15 - Row 1
+GPIO16 - Row 2
+GPIO17 - Row 3
+GPIO18 - Row 4
+GPIO19 - Row 5
+
+# NeoPixel
+GPIO33 - NeoPixel (WS2812)
+
+# Rotary Encoders
+GPIO26 - Encoder 1 A
+GPIO27 - Encoder 1 B
+GPIO28 - Encoder 2 A
+GPIO29 - Encoder 2 B
+GPIO30 - Encoder 3 A
+GPIO31 - Encoder 3 B
+
+# UART
+GPIO36 - UART TX
+GPIO37 - UART RX
+
+# SPI Display
+GPIO38 - SPI SCK
+GPIO39 - SPI MOSI
+GPIO40 - SPI CS
+GPIO41 - SPI DC
+GPIO42 - SPI RESET (optional)
+
+GPIO0   - (Strapping pin, avoid as output; can be input-only with care)
+GPIO20  - Usable for GPIO (safe)
+GPIO21  - Usable for GPIO (safe)
+GPIO32  - Usable for GPIO (safe)
+GPIO34  - Input only (good for buttons or sensors)
+GPIO35  - Input only (good for buttons or sensors)
+GPIO43  - Usable (safe)
+GPIO44  - Usable (safe)
+GPIO45  - Usable (safe)
+GPIO46  - Input only (used internally on some boards, avoid)
+GPIO47  - Usable (safe)
+GPIO48  - Usable (safe)
