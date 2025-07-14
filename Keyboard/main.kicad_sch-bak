@@ -182,394 +182,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder_Switch"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -2.794)
-					(mid -3.0988 -0.0635)
-					(end -0.381 2.667)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.429 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -727,397 +339,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Driver_Display:CR2013-MI2120"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -17.526 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CR2013-MI2120"
-				(at 1.905 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Display:CR2013-MI2120"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://pan.baidu.com/s/11Y990"
-				(at -16.51 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "driver display"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CR2013*MI2120*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CR2013-MI2120_0_0"
-				(text "ILI9341"
-					(at -5.461 4.572 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-						(justify left)
-					)
-				)
-				(text "SPI Interface"
-					(at -5.461 -0.508 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-						(justify left)
-					)
-				)
-				(text "SD Card Slot"
-					(at -5.461 -3.048 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-						(justify left)
-					)
-				)
-				(text "320x240 LCD"
-					(at 0.889 2.032 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-					)
-				)
-			)
-			(symbol "CR2013-MI2120_0_1"
-				(rectangle
-					(start -17.78 12.7)
-					(end 17.78 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -6.35 6.35)
-					(end 8.255 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CR2013-MI2120_1_1"
-				(pin input line
-					(at -20.32 10.16 0)
-					(length 2.54)
-					(name "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 7.62 0)
-					(length 2.54)
-					(name "SD_MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -20.32 5.08 0)
-					(length 2.54)
-					(name "SD_MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 2.54 0)
-					(length 2.54)
-					(name "SD_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 0 0)
-					(length 2.54)
-					(name "FLASH_CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 7.62 180)
-					(length 2.54)
-					(name "D/~{C}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 5.08 180)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 2.54 180)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -2.54 180)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "LED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2431,329 +1652,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mt3608:mt3608_Dev_Board"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "mt3608_Dev_Board_1_1"
-				(rectangle
-					(start -11.43 3.81)
-					(end 12.7 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 173 166 64 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "mt3608 Dev Board"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 2.54 0)
-					(length 2.54)
-					(name "VOUT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 -2.54 0)
-					(length 2.54)
-					(name "VOUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "tp4056Board:tp4056_Dev_board"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "tp4056_Dev_board_1_1"
-				(rectangle
-					(start -10.16 3.81)
-					(end 8.89 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 119 132 15 0.6)
-					)
-				)
-				(text "tp4056 Dev Board"
-					(at -0.254 -2.032 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "Input-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 -6.35 0)
-					(length 2.54)
-					(name "Input+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 2.54 180)
-					(length 2.54)
-					(name "Output-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "B-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -3.81 180)
-					(length 2.54)
-					(name "b+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -6.35 180)
-					(length 2.54)
-					(name "Output+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 163.83 86.36)
@@ -2912,12 +1810,6 @@
 		(uuid "17e7737e-f965-431f-a595-a71f26ab2380")
 	)
 	(junction
-		(at 330.2 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "192a0798-e9fd-484a-833e-583d7f456b72")
-	)
-	(junction
 		(at 240.03 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3044,7 +1936,7 @@
 		(uuid "2c1e665c-fc51-4f23-ab78-4e9f6cbe9c07")
 	)
 	(junction
-		(at 267.97 54.61)
+		(at 284.48 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c3f24db-0a8a-4080-b12f-09dab8c99f29")
@@ -3098,12 +1990,6 @@
 		(uuid "34de7bed-1583-4bc7-8745-064d9a9bbcb4")
 	)
 	(junction
-		(at 260.35 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3775bc32-3c61-4271-9b52-b41b26a22919")
-	)
-	(junction
 		(at 55.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3120,6 +2006,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41adad88-fd26-45fb-a02c-607099df8f2d")
+	)
+	(junction
+		(at 276.86 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44c319e6-9dec-4979-8123-385355904d53")
 	)
 	(junction
 		(at 100.33 86.36)
@@ -3146,13 +2038,7 @@
 		(uuid "477cd1bc-5067-4060-820b-0f5c216166de")
 	)
 	(junction
-		(at 274.32 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47d26e5a-d592-4a05-bb2f-e904fe75b850")
-	)
-	(junction
-		(at 267.97 44.45)
+		(at 284.48 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48176436-1054-46c7-8218-608807675717")
@@ -3350,7 +2236,7 @@
 		(uuid "66dc250c-cec9-41a3-ae4a-cadbba3b83b9")
 	)
 	(junction
-		(at 260.35 54.61)
+		(at 276.86 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "689c5c68-3e00-4e35-82e6-65a84e8caae7")
@@ -3380,12 +2266,6 @@
 		(uuid "71ca3bc9-71b1-4ea2-a29d-2a5bcd052586")
 	)
 	(junction
-		(at 267.97 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "722c63f5-ccae-4c4e-8367-d9a3d9837086")
-	)
-	(junction
 		(at 118.11 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3402,12 +2282,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c9cf7e-d1c3-4e9b-9674-3e1b154f64f8")
-	)
-	(junction
-		(at 283.21 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7614f4e8-e390-4c22-8b37-ea37c87da7a1")
 	)
 	(junction
 		(at 80.01 99.06)
@@ -3806,7 +2680,7 @@
 		(uuid "bbd35e1d-5e8f-4cb0-beff-708f7ded4da5")
 	)
 	(junction
-		(at 260.35 44.45)
+		(at 276.86 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc2e718a-0119-4975-8eb2-25bb7ea299ad")
@@ -3816,12 +2690,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be23b43c-bb7c-4658-a7fc-3ee06c164259")
-	)
-	(junction
-		(at 302.26 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be3e5381-4de5-4afb-a63d-2858b4468a0b")
 	)
 	(junction
 		(at 151.13 46.99)
@@ -3948,6 +2816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d05c1778-0064-403a-8bda-3d9612713526")
+	)
+	(junction
+		(at 284.48 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3464387-c2f8-4696-9192-343c352a71f1")
 	)
 	(junction
 		(at 181.61 219.71)
@@ -4136,12 +3010,6 @@
 		(uuid "fd915842-24dc-48ab-aa11-31d5ed25c4d8")
 	)
 	(junction
-		(at 311.15 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd936a9a-9a14-4545-b10b-544c3e77b0bb")
-	)
-	(junction
 		(at 125.73 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4171,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 67.31) (xy 260.35 54.61)
+			(xy 276.86 60.96) (xy 276.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4238,16 +3106,6 @@
 			(type default)
 		)
 		(uuid "04d08fd3-0204-4248-9321-d90f480fc51b")
-	)
-	(wire
-		(pts
-			(xy 255.27 86.36) (xy 255.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0520e777-e2f3-4d29-95c4-3ebefc83da15")
 	)
 	(wire
 		(pts
@@ -4491,16 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 25.4) (xy 303.53 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12432bd6-f9c0-410b-b897-2cb1aaf33aa7")
-	)
-	(wire
-		(pts
 			(xy 201.93 86.36) (xy 201.93 127)
 		)
 		(stroke
@@ -4538,16 +3386,6 @@
 			(type default)
 		)
 		(uuid "16d3c5e3-9b91-4256-8955-cf20cb7372d1")
-	)
-	(wire
-		(pts
-			(xy 302.26 104.14) (xy 311.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e221c5-7b28-42fd-9a68-2fb04ca48597")
 	)
 	(wire
 		(pts
@@ -4608,16 +3446,6 @@
 			(type default)
 		)
 		(uuid "184c09a6-2ec5-4715-86f0-5ef2752976b3")
-	)
-	(wire
-		(pts
-			(xy 271.78 24.13) (xy 271.78 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1931dd60-2af1-45b9-8e6c-45a4e0cf0b9c")
 	)
 	(wire
 		(pts
@@ -4791,16 +3619,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 30.48) (xy 303.53 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b1474b-ffd2-4a32-a04a-edc5ea062454")
-	)
-	(wire
-		(pts
 			(xy 182.88 222.25) (xy 195.58 222.25)
 		)
 		(stroke
@@ -4961,16 +3779,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 30.48) (xy 271.78 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "312c1cc5-ab77-4c09-818b-38cfab0c6c31")
-	)
-	(wire
-		(pts
 			(xy 73.66 148.59) (xy 76.2 148.59)
 		)
 		(stroke
@@ -5018,16 +3826,6 @@
 			(type default)
 		)
 		(uuid "33eda8a6-d02e-45bc-ba24-70acd8befbec")
-	)
-	(wire
-		(pts
-			(xy 255.27 104.14) (xy 274.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a8f875-22db-4155-b9d8-2203ff14e27a")
 	)
 	(wire
 		(pts
@@ -5088,16 +3886,6 @@
 			(type default)
 		)
 		(uuid "383e7f12-5f5e-46dc-a8e6-af401421d79f")
-	)
-	(wire
-		(pts
-			(xy 283.21 104.14) (xy 302.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a956e3-5090-469b-821a-5db620a7b76a")
 	)
 	(wire
 		(pts
@@ -5208,6 +3996,16 @@
 			(type default)
 		)
 		(uuid "3ef5e12b-fe5f-4971-843c-a6c41944a51b")
+	)
+	(wire
+		(pts
+			(xy 284.48 25.4) (xy 293.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413d0417-8faf-4925-a477-eb0fadd6543f")
 	)
 	(wire
 		(pts
@@ -5431,16 +4229,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 86.36) (xy 311.15 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50562454-24f4-4de6-9e40-0305b92b962a")
-	)
-	(wire
-		(pts
 			(xy 234.95 113.03) (xy 234.95 153.67)
 		)
 		(stroke
@@ -5561,16 +4349,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 33.02) (xy 271.78 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e7b4e3a-3a51-42bf-bbd2-1a099e86fc61")
-	)
-	(wire
-		(pts
 			(xy 240.03 102.87) (xy 240.03 143.51)
 		)
 		(stroke
@@ -5631,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 31.75) (xy 267.97 44.45)
+			(xy 284.48 25.4) (xy 284.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 44.45) (xy 267.97 54.61)
+			(xy 284.48 38.1) (xy 284.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5728,16 +4506,6 @@
 			(type default)
 		)
 		(uuid "6a2c815e-0bfe-4971-b12e-0c87a39afaf0")
-	)
-	(wire
-		(pts
-			(xy 330.2 104.14) (xy 337.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4e4fe8-650a-4911-9cb7-200eaa846645")
 	)
 	(wire
 		(pts
@@ -5901,26 +4669,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 35.56) (xy 300.99 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f3dee1-41bc-4406-8331-136b3ed8ce35")
-	)
-	(wire
-		(pts
-			(xy 311.15 86.36) (xy 311.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76339209-c201-4ab0-9e05-f7e4e16d04f1")
-	)
-	(wire
-		(pts
 			(xy 226.06 212.09) (xy 226.06 219.71)
 		)
 		(stroke
@@ -5931,17 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 88.9) (xy 302.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "776dd9ca-15f9-46c9-9e5a-b890639faf32")
-	)
-	(wire
-		(pts
-			(xy 260.35 31.75) (xy 260.35 44.45)
+			(xy 276.86 25.4) (xy 276.86 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5961,13 +4699,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 86.36) (xy 287.02 86.36)
+			(xy 276.86 21.59) (xy 276.86 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ab7f3fb-6dad-4b71-b83a-f2908c300cad")
+		(uuid "79050f90-9f55-4b97-89bf-82cfc8344028")
 	)
 	(wire
 		(pts
@@ -6101,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 54.61) (xy 267.97 67.31)
+			(xy 284.48 48.26) (xy 284.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6301,16 +5039,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 88.9) (xy 330.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f9d5992-6f51-49d8-89ad-b64c6e9325ea")
-	)
-	(wire
-		(pts
 			(xy 49.53 46.99) (xy 49.53 86.36)
 		)
 		(stroke
@@ -6348,16 +5076,6 @@
 			(type default)
 		)
 		(uuid "91343b86-8d14-4139-b8fd-cd60aa63320f")
-	)
-	(wire
-		(pts
-			(xy 311.15 104.14) (xy 330.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f2c3fe-0c35-41e5-b4eb-8afa7b8972f8")
 	)
 	(wire
 		(pts
@@ -6511,16 +5229,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 88.9) (xy 274.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da8012d-bc13-4c63-bb6f-10c2ce7d225e")
-	)
-	(wire
-		(pts
 			(xy 208.28 102.87) (xy 240.03 102.87)
 		)
 		(stroke
@@ -6558,16 +5266,6 @@
 			(type default)
 		)
 		(uuid "9f1af352-57a7-4e92-999b-8713cc51fc1f")
-	)
-	(wire
-		(pts
-			(xy 283.21 86.36) (xy 283.21 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f595f47-c932-47de-b052-d81b77a36bf2")
 	)
 	(wire
 		(pts
@@ -6921,16 +5619,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 20.32) (xy 298.45 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbc7db0-0728-41fe-9434-77424656a67e")
-	)
-	(wire
-		(pts
 			(xy 157.48 143.51) (xy 170.18 143.51)
 		)
 		(stroke
@@ -6968,16 +5656,6 @@
 			(type default)
 		)
 		(uuid "c15770bd-7cab-4a92-b9a4-e0b7cdad7842")
-	)
-	(wire
-		(pts
-			(xy 298.45 20.32) (xy 298.45 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c247cb48-eb16-4e90-8e91-d94ac51a2274")
 	)
 	(wire
 		(pts
@@ -7108,16 +5786,6 @@
 			(type default)
 		)
 		(uuid "c9725f40-1762-4e04-a829-e9c84807dfd5")
-	)
-	(wire
-		(pts
-			(xy 274.32 104.14) (xy 283.21 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb51d8fa-a88c-468e-869d-84e2ef220af9")
 	)
 	(wire
 		(pts
@@ -7341,16 +6009,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 31.75) (xy 267.97 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db420063-de97-4405-bec6-875c0b47e197")
-	)
-	(wire
-		(pts
 			(xy 201.93 127) (xy 201.93 167.64)
 		)
 		(stroke
@@ -7451,6 +6109,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 21.59) (xy 293.37 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34a8119-4e06-4b97-bbe4-5a8ffa7327ac")
+	)
+	(wire
+		(pts
 			(xy 67.31 139.7) (xy 80.01 139.7)
 		)
 		(stroke
@@ -7468,16 +6136,6 @@
 			(type default)
 		)
 		(uuid "e52ad340-21fd-40e0-be33-64d9e7f82e16")
-	)
-	(wire
-		(pts
-			(xy 260.35 31.75) (xy 260.35 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7afdaba-e0cf-48ae-9467-13684271ebe4")
 	)
 	(wire
 		(pts
@@ -7561,16 +6219,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 26.67) (xy 271.78 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c4e77d-a34d-46cf-aec6-d4a884cca4f9")
-	)
-	(wire
-		(pts
 			(xy 113.03 127) (xy 113.03 167.64)
 		)
 		(stroke
@@ -7618,16 +6266,6 @@
 			(type default)
 		)
 		(uuid "f56db564-bce8-408e-adae-91094d6ee064")
-	)
-	(wire
-		(pts
-			(xy 259.08 86.36) (xy 255.27 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56e984d-6812-42fc-ad5a-0a335756cb02")
 	)
 	(wire
 		(pts
@@ -7761,23 +6399,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 54.61) (xy 260.35 44.45)
+			(xy 276.86 48.26) (xy 276.86 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd3fcdfc-b2ee-4fa9-8410-d22a3ad43591")
-	)
-	(wire
-		(pts
-			(xy 271.78 35.56) (xy 300.99 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3525b3-233f-4523-a6da-e0a043b0d91d")
 	)
 	(wire
 		(pts
@@ -7818,50 +6446,6 @@
 			(type default)
 		)
 		(uuid "ff2abe9a-169b-41e4-bccf-e8337775597f")
-	)
-	(global_label "Col 1"
-		(shape input)
-		(at 36.83 38.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "200f2025-241b-414c-acd7-da3f5bac23a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 30.5077 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col 1"
-		(shape input)
-		(at 518.16 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "888900f3-9981-4ef2-bbee-e0a0e26f24f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.5677 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
@@ -8197,7 +6781,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 262.89 67.31 270)
+		(at 279.4 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8205,7 +6789,7 @@
 		(dnp no)
 		(uuid "0305f961-c59a-4d40-90fd-fe1bbe1c6968")
 		(property "Reference" "BT4"
-			(at 264.7315 59.69 90)
+			(at 281.2415 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +6797,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 264.7315 62.23 90)
+			(at 281.2415 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +6805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.414 67.31 90)
+			(at 280.924 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +6814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.414 67.31 90)
+			(at 280.924 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,7 +6823,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 262.89 67.31 0)
+			(at 279.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,87 +7154,6 @@
 			(project "main"
 				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
 					(reference "SW22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tp4056Board:tp4056_Dev_board")
-		(at 283.21 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "082854c7-1267-4dc9-81c3-bf59a9fed46b")
-		(property "Reference" "U2"
-			(at 283.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 283.845 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 283.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7aa9ddbf-f35c-4779-aa1d-e3e6b31b21be")
-		)
-		(pin "6"
-			(uuid "badc3f44-1fa5-4988-b5e3-3971d7aefaa5")
-		)
-		(pin "5"
-			(uuid "d1984b2f-defc-4edf-a0e6-85e21444eae6")
-		)
-		(pin "1"
-			(uuid "e11d2762-30b2-45f4-95d9-4cc7548ac698")
-		)
-		(pin "2"
-			(uuid "43c11ead-f52a-4dd9-8208-92e0718e0e77")
-		)
-		(pin "3"
-			(uuid "c67f21f8-410f-4de0-a861-f1cd01ebfade")
-		)
-		(instances
-			(project ""
-				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10330,83 +8833,6 @@
 			(project "main"
 				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
 					(reference "D111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 294.64 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22bbfedc-f643-46b9-912b-eed019878576")
-		(property "Reference" "SW55"
-			(at 294.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 294.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 294.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S2"
-			(uuid "5d49fb7f-2bd9-4bfa-a1e5-fc46a449a99e")
-		)
-		(pin "C"
-			(uuid "d3c8581a-ddd7-4234-ad12-dbc982500e6a")
-		)
-		(pin "S1"
-			(uuid "75047134-12c8-4d35-9814-a7be6466c74a")
-		)
-		(pin "B"
-			(uuid "71b43048-bac1-455e-8195-c90e7dfde094")
-		)
-		(pin "A"
-			(uuid "045e1f2d-63aa-43f7-a0c3-2c86c80cda01")
-		)
-		(instances
-			(project ""
-				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
-					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -13836,7 +12262,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 262.89 31.75 270)
+		(at 279.4 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13845,7 +12271,7 @@
 		(fields_autoplaced yes)
 		(uuid "58b86ae3-7119-4136-8a55-eabeee9c4a6a")
 		(property "Reference" "BT1"
-			(at 264.7315 24.13 90)
+			(at 281.2415 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13853,7 +12279,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 264.7315 26.67 90)
+			(at 281.2415 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +12287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.414 31.75 90)
+			(at 280.924 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +12296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.414 31.75 90)
+			(at 280.924 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +12305,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 262.89 31.75 0)
+			(at 279.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,83 +13406,6 @@
 			(project "main"
 				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
 					(reference "D64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 266.7 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6720cc16-fbc1-4a6c-8354-2262c1b81460")
-		(property "Reference" "SW43"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 266.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "336280a0-31a3-4657-8e3e-ddb964356796")
-		)
-		(pin "S2"
-			(uuid "9fa8aedd-0910-4748-8a37-ef23bc5b39ec")
-		)
-		(pin "B"
-			(uuid "63f6a500-e3c1-49b8-987d-e8758329d159")
-		)
-		(pin "A"
-			(uuid "e9064410-0f60-430b-bbcc-e909b5354ca8")
-		)
-		(pin "S1"
-			(uuid "2f42db87-5ef9-4d8c-bc33-4968393c63d7")
-		)
-		(instances
-			(project ""
-				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
-					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -18249,7 +16598,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 262.89 54.61 270)
+		(at 279.4 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18257,7 +16606,7 @@
 		(dnp no)
 		(uuid "a029ed45-f43e-49bc-89c2-d58516b4fd5f")
 		(property "Reference" "BT3"
-			(at 264.7315 46.99 90)
+			(at 281.2415 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +16614,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 264.7315 49.53 90)
+			(at 281.2415 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18273,7 +16622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.414 54.61 90)
+			(at 280.924 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18282,7 +16631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.414 54.61 90)
+			(at 280.924 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18291,7 +16640,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 262.89 54.61 0)
+			(at 279.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18979,83 +17328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 322.58 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae93713c-1eea-43b4-b093-5438fcb7894f")
-		(property "Reference" "SW60"
-			(at 322.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 322.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 322.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "6cccb583-5141-43c5-b5d8-ab24f2e2211e")
-		)
-		(pin "S1"
-			(uuid "36ec5463-4b5d-4ef2-b83f-4df84488363f")
-		)
-		(pin "S2"
-			(uuid "a5b62360-48a8-4827-8468-8005f5991042")
-		)
-		(pin "C"
-			(uuid "f5974f3a-737a-42cd-8989-988535ea0255")
-		)
-		(pin "B"
-			(uuid "35d76351-630e-4ddb-84e6-520e2ac73e74")
-		)
-		(instances
-			(project ""
-				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
-					(reference "SW60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 181.61 95.25 90)
 		(unit 1)
@@ -19695,112 +17967,6 @@
 			(project "main"
 				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
 					(reference "D55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Display:CR2013-MI2120")
-		(at 276.86 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda9bb1f-5a44-4a5b-821b-dd083936ffad")
-		(property "Reference" "U4"
-			(at 279.0033 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CR2013-MI2120"
-			(at 279.0033 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Display:CR2013-MI2120"
-			(at 276.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://pan.baidu.com/s/11Y990"
-			(at 260.35 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V"
-			(at 276.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db7e9d6a-a488-4c9b-a108-4ec18e5238ea")
-		)
-		(pin "4"
-			(uuid "53eb14d7-e518-42c0-9240-2c00a930d8b0")
-		)
-		(pin "10"
-			(uuid "369aef2f-fcf1-4327-847b-5ae2aad08258")
-		)
-		(pin "3"
-			(uuid "b9c23c4a-4f8f-432d-9818-4db6b804f510")
-		)
-		(pin "8"
-			(uuid "baed1770-ef53-4451-b7bb-e1e9ca7945e8")
-		)
-		(pin "9"
-			(uuid "be75100f-440a-4910-b896-5b57d429ae15")
-		)
-		(pin "11"
-			(uuid "f21c371c-43b2-4357-92b0-989ec8f86d13")
-		)
-		(pin "5"
-			(uuid "44398c2b-6da4-4cbc-8956-a4869ba5c3b4")
-		)
-		(pin "14"
-			(uuid "0453f35f-1240-4ee4-b73c-e2097d68f8d3")
-		)
-		(pin "6"
-			(uuid "7de56025-5835-43d2-ba8f-1e6b96a8b14f")
-		)
-		(pin "1"
-			(uuid "9e61af4f-2f77-4290-809b-ba7739b86624")
-		)
-		(pin "12"
-			(uuid "da78d522-41ef-42ce-87c2-c9be4e3d7de8")
-		)
-		(pin "13"
-			(uuid "67a25c60-e788-47ec-a244-825ce307ee3d")
-		)
-		(pin "7"
-			(uuid "2f1509c6-af69-49bb-9543-9b1fe93317ba")
-		)
-		(instances
-			(project ""
-				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -20561,7 +18727,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 262.89 44.45 270)
+		(at 279.4 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20569,7 +18735,7 @@
 		(dnp no)
 		(uuid "c56d4ec7-d3c0-4b0a-86e7-8a685b3d9002")
 		(property "Reference" "BT2"
-			(at 264.7315 36.83 90)
+			(at 281.2415 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20577,7 +18743,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 264.7315 39.37 90)
+			(at 281.2415 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20585,7 +18751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.414 44.45 90)
+			(at 280.924 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20594,7 +18760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.414 44.45 90)
+			(at 280.924 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20603,7 +18769,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 262.89 44.45 0)
+			(at 279.4 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23153,80 +21319,6 @@
 			(project "main"
 				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
 					(reference "SW29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mt3608:mt3608_Dev_Board")
-		(at 318.77 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb2919c6-e45b-4d57-aec2-fd530cadbd10")
-		(property "Reference" "U3"
-			(at 318.135 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 318.135 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c42abb6a-4e1b-4f3f-9b98-b95fb71f057a")
-		)
-		(pin ""
-			(uuid "e24c8275-a820-41bc-a7a4-c587a1761266")
-		)
-		(pin ""
-			(uuid "a1455b11-e0f3-48cf-b812-2053a35dce99")
-		)
-		(pin ""
-			(uuid "ec4e8537-0aa2-4e56-b3c6-249bd21a2a16")
-		)
-		(instances
-			(project ""
-				(path "/506c8e5e-feb0-437f-bcf0-aea81d463352"
-					(reference "U3")
 					(unit 1)
 				)
 			)

@@ -25,14 +25,21 @@ GPIO33 - NeoPixel (WS2812)
 # Rotary Encoders
 GPIO26 - Encoder 1 A
 GPIO27 - Encoder 1 B
+GPIO20 - Encoder 1 SW
 GPIO28 - Encoder 2 A
 GPIO29 - Encoder 2 B
+GPIO21 - Encoder 2 SW
 GPIO30 - Encoder 3 A
 GPIO31 - Encoder 3 B
+GPIO32 - Encoder 3 SW
 
 # UART
-GPIO36 - UART TX
-GPIO37 - UART RX
+GPIO36 - UART1 TX
+GPIO37 - UART1 RX
+GPIO43 - UART2 TX
+GPIO44 - UART2 RX
+GPIO47  - UART3 TX
+GPIO48  - UART3 RX
 
 # SPI Display
 GPIO38 - SPI SCK
@@ -42,14 +49,8 @@ GPIO41 - SPI DC
 GPIO42 - SPI RESET (optional)
 
 GPIO0   - (Strapping pin, avoid as output; can be input-only with care)
-GPIO20  - Usable for GPIO (safe)
-GPIO21  - Usable for GPIO (safe)
-GPIO32  - Usable for GPIO (safe)
 GPIO34  - Input only (good for buttons or sensors)
 GPIO35  - Input only (good for buttons or sensors)
-GPIO43  - Usable (safe)
-GPIO44  - Usable (safe)
+- Usable (safe)
 GPIO45  - Usable (safe)
 GPIO46  - Input only (used internally on some boards, avoid)
-GPIO47  - Usable (safe)
-GPIO48  - Usable (safe)
