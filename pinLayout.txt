@@ -20,33 +20,132 @@ GPIO18 - Row 4
 GPIO19 - Row 5
 
 # NeoPixel
-GPIO33 - NeoPixel (WS2812)
-
-# Rotary Encoders
-GPIO26 - Encoder 1 A
-GPIO27 - Encoder 1 B
-GPIO20 - Encoder 1 SW
-GPIO28 - Encoder 2 A
-GPIO29 - Encoder 2 B
-GPIO21 - Encoder 2 SW
-GPIO30 - Encoder 3 A
-GPIO31 - Encoder 3 B
-GPIO32 - Encoder 3 SW
+GPIO35 - NeoPixel (WS2812)
 
 # UART
-GPIO36 - UART1 TX
-GPIO37 - UART1 RX
-GPIO43 - UART2 TX
-GPIO44 - UART2 RX
-GPIO47  - UART3 TX
-GPIO48  - UART3 RX
+GPIO36 - UART0 TX
+GPIO45 - UART0 RX
+GPIO37 - UART1 TX
+GPIO46 - UART1 RX
+GPIO47  - UART2 TX
+GPIO48  - UART2 RX
 
-# SPI Display
-GPIO38 - SPI SCK
-GPIO39 - SPI MOSI
-GPIO40 - SPI CS
-GPIO41 - SPI DC
-GPIO42 - SPI RESET (optional)
+GPIO4    - Encoder 1 A
+GPIO5    - Encoder 1 B
+GPIO6    - Encoder 1 SW
+GPIO7    - Encoder 2 A
+GPIO8    - Encoder 2 B
+GPIO9    - Encoder 2 SW
+GPIO10   - Encoder 3 A
+GPIO11   - Encoder 3 B
+GPIO12   - Encoder 3 SW
+
+GPIO18   - SPI SCK
+GPIO23   - SPI MOSI
+GPIO15   - SPI CS
+GPIO2    - SPI DC
+GPIO21   - SPI RESET
+
+GPIO13   - col1
+GPIO14   - col2
+GPIO16   - col3
+GPIO17   - col4
+GPIO19   - row1
+GPIO22   - row2
+GPIO25   - row3
+GPIO26   - row4
+
+GPIO3    - Rx1
+GPIO17   - Tx2
+
+Second ESP
+GPIO4    - Encoder 1 A
+GPIO5    - Encoder 1 B
+GPIO16   - Encoder 1 SW
+GPIO17   - Encoder 2 A
+GPIO18   - Encoder 2 B
+GPIO19   - Encoder 2 SW
+
+GPIO21   - Neo Pixel Data
+
+GPIO14   - SPI SCK
+GPIO13   - SPI MOSI
+GPIO15   - SPI CS
+GPIO2    - SPI DC
+GPIO27   - SPI RESET
+
+GPIO25   - col1
+GPIO26   - col2
+GPIO32   - col3
+GPIO33   - col4
+GPIO34   - row1 *(input only)*
+GPIO35   - row2 *(input only)*
+GPIO36   - row3 *(input only)*
+GPIO39   - row4 *(input only)*
+
+GPIO3    - Rx1
+GPIO1    - Tx2
+
+
+Third Esp
+GPIO4 - col1
+GPIO5 - col2
+GPIO16 - col3
+GPIO17 - row1
+GPIO18 - row2
+GPIO19 - row3
+GPIO14 - row4
+GPIO13 - row5
+GPIO15 -
+
+GPIO21   - Neo Pixel Data
+
+GPIO35    - Rx1 left
+GPIO32    - Tx2 left
+
+GPIO33    - rx2 right
+GPIO25   - tx2 right
+
+GPIO25   -
+GPIO26   -
+GPIO32   -
+GPIO33   -
+GPIO34   -
+GPIO35   -
+GPIO36   -
+GPIO39   -
+
+4th ESP
+
+GPIO4    - Encoder 1 A
+GPIO5    - Encoder 1 B
+GPIO16   - Encoder 1 SW
+GPIO17   - Encoder 2 A
+GPIO18   - Encoder 2 B
+GPIO19   - Encoder 2 SW
+
+GPIO21   - Neo Pixel Data
+
+GPIO14   - SPI SCK
+GPIO13   - SPI MOSI
+GPIO15   - SPI CS
+GPIO2    - SPI DC
+GPIO27   - SPI RESET
+
+GPIO25   - col1
+GPIO26   - col2
+GPIO32   - col3
+GPIO33   - col4
+GPIO34   - row1 *(input only)*
+GPIO35   - row2 *(input only)*
+GPIO36   - row3 *(input only)*
+GPIO39   - row4 *(input only)*
+
+GPIO3    - Rx1
+GPIO1    - Tx2
+
+
+
 
 GPIO0   - (Strapping pin, avoid as output; can be input-only with care)
 GPIO34  - Input only (good for buttons or sensors)
